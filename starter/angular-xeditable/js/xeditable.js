@@ -1540,9 +1540,7 @@ angular.module('xeditable').factory('editableThemes', function() {
       errorTpl:    '<div class="editable-error help-block" ng-show="$error" ng-bind="$error"></div>',
       buttonsTpl:  '<span class="editable-buttons"></span>',
       submitTpl:   '<button type="submit" class="btn btn-primary">Save</button>',
-      cancelTpl:   '<button type="button" class="btn btn-default" ng-click="$form.$cancel()">'+
-                     'Cancel'+
-                   '</button>',
+      cancelTpl:   '<button type="button" class="btn btn-default" ng-click="$form.$cancel()">Cancel</button>',
 
       //bs3 specific prop to change buttons class: btn-sm, btn-lg
       buttonsClass: '',
